@@ -24,6 +24,7 @@ div.id = 'imagem-preco'
 let divImg = document.querySelector('body')
 divImg.appendChild(div)
 
+// Criando outra div filho da div 'imagem-preco' para adicionar vantagens
 let vantagens = document.createElement('div')
 vantagens.innerHTML = `
 <p><strong>Vantagens de obter o construtor</strong></p>
