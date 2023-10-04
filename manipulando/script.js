@@ -14,6 +14,6 @@ changeUl.innerHTML = '<ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>'
 console.log(changeUl)
 
 // Usando ..innerHTML para adicionar três links em 'ol'
-let changOl = document.querySelector('ol')
+let changOl = document.querySelector('#lista-ordenada')
 changOl.innerHTML = '<ol><li><a href="https://goustfps.github.io/">Link 1</a></li><li><a href="https://github.com/GoustFPS">Link 2</a></li><li><a href="https://github.com/GoustFPS/atividade-js-proz">Link 3</a></li></ol>'
 console.log(changOl)
